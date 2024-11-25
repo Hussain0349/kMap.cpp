@@ -11,8 +11,8 @@ This project is a Karnaugh Map (K-Map) Solver implemented in C++. It allows user
 **main.cpp:** The main file containing all the logic for K-Map visualization, SOP, and POS calculations.
 **Functions include:**
 **adjustMinterm:** Adjusts specific minterms for K-Map grid placement. \
-**adjustMaxterm: **Adjusts maxterms for K-Map representation. \
-**printKMap: **Displays the K-Map for SOP. \
+**adjustMaxterm:** Adjusts maxterms for K-Map representation. \
+**printKMap:** Displays the K-Map for SOP. \
 **printKMapPOS**: Displays the K-Map for POS. \
 A simple menu-driven interface guides users through the process. 
 
@@ -28,3 +28,5 @@ User inputs the desired number of maxterms. \
 Each maxterm is adjusted for accurate K-Map placement. \
 The program creates a 4x4 K-Map grid with the maxterms. \
 A simplified Boolean expression is printed in POS form. \
+
+
